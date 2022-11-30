@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik|Bitter");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "flexboxgrid";
 @import "colors";
 @import "typography";
@@ -259,4 +259,9 @@ textarea {
   &:hover {
     color: $accent;
   }
+}
+
+.tagline {
+  @include size(h2);
+  // font-weight: 600;
 }

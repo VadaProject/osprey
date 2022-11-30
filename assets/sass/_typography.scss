@@ -1,5 +1,5 @@
-$font-header: "Bitter", "Roboto Slab", "Cambria", Georgia, serif;
-$font-body: "Rubik", "Poppins", "Hel­vetica", Arial, sans-serif;
+$font-header: "League Spartan", sans-serif;
+$font-body: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $font-code: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace;
 
 // Modular font scale
@@ -47,6 +47,8 @@ $breakpoint-small: 25em; // 400px
 
 h1 {
   @include size(h1);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 h2 {
