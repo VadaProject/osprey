@@ -91,10 +91,14 @@
   {{ end }}
 
   {{ if .Site.Params.highlightJS }}
-    {{ if .Site.Params.highlightJSStyle }}
-      <link rel="stylesheet" href="{{ .Site.Params.highlightJSStyle }}">
-    {{ else }}
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-    {{ end }}
+  {{ if .Site.Params.highlightJSStyle }}
+  <link rel="stylesheet" href="{{ .Site.Params.highlightJSStyle }}">
+  {{ else }}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   {{ end }}
+  {{ end }}
+  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
 </head>
